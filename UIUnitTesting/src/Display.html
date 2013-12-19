@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Cisco Display</title>
+
+  <script type="text/javascript" src="../lib/jQuery.js"></script>
+  <script type="text/javascript" src="../lib/knockout.js"></script>
+
+</head>
+
+<body>
+<h1>Hello</h2>
+<input type='button' data-bind="click : calculate" value="Click ME">
+<div>
+
+<span data-bind="text: result">this is the target result area</span>
+
+<input data-bind='value: result' type='text' />
+</div>
+
+  <script type="text/javascript" src="BusinessLogic.js"></script>
+</body>
+</html>
